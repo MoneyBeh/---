@@ -1,0 +1,28 @@
+html{
+    bpx-sizing: border-box;
+    height: 100;
+}
+
+*,
+*::before
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body{
+align-items: center;
+background: linear-gradient(320deg,#eb92be), #ffef78;
+display: flex;
+font-family: 'Dosis', sans-serif;
+font-display: swap;
+height: inherit;
+justify-content: center;
+}
+
+.wrapper{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(red, green, blue, alpha);
+}
+
